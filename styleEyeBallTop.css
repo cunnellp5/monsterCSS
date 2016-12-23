@@ -1,0 +1,76 @@
+
+.eyeBoarderTop{
+  height: 4em;
+  width: 4em;
+  border-radius: 50%;
+  border: 3px solid #A42B45;
+  animation: blink 5s 2.2s infinite alternate;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.whiteCircleTop{
+  height: 4em;
+  width: 4em;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.irisTop{
+  height: 3.3em;
+  width: 3.3em;
+  border-radius: 50%;
+  background-color: #43D5FD;
+  background: linear-gradient(to top right, #43D5FD, #AF39CD);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 0px 30px 10px white;
+  border: .35em solid white;
+}
+.pupilTop{
+  height: 2.4em;
+  width: 2.4em;
+  border-radius: 50%;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /*animation: blink 5s 2.2s infinite alternate;*/
+}
+.whiteCircleBigTop{
+  height: 1.1em;
+  width: 1.1em;
+  border-radius: 50%;
+  background-color: white;
+  margin-left: -1.5em;
+  margin-top: -1.3em;
+  opacity: .7;
+}
+.whiteCircleSmallTop{
+  height: .51em;
+  width: .51em;
+  border-radius: 50%;
+  background-color: white;
+  animation: shift 5s 2.2s infinite alternate;
+  opacity: .5;
+}
+@keyframes blink {
+  50% {
+    height: 0em;
+    border-top: 10px solid #A42B45;
+    border-bottom: 10px solid #A42B45;
+  }
+}
+@keyframes shift {
+  50% {
+    /*margin: 1em;*/
+    margin-left: .5em;
+    opacity: .2;
+  }
+}
+
+/*#AF39CD - purple*/
+/*#43D5FD - baby blue*/

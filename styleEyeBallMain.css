@@ -1,0 +1,103 @@
+body {
+  background-image: url(image/stars.jpg);
+}
+.wrap{
+  position: absolute;
+  left: 3.5em;
+  top: 2em;
+}
+.eyeBoarder{
+  height: 4em;
+  width: 4em;
+  border-radius: 50%;
+  border: 3px solid #A42B45;
+  animation: blink 2s 1s infinite alternate;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.whiteCircleMain{
+  height: 4em;
+  width: 4em;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.irisMain{
+  height: 3.3em;
+  width: 3.3em;
+  border-radius: 50%;
+  background-color: #43D5FD;
+  background: linear-gradient(to top right, #43D5FD, #AF39CD);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 0px 30px 10px white;
+  border: .35em solid white;
+
+}
+.pupilMain{
+  height: 2.4em;
+  width: 2.4em;
+  border-radius: 50%;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /*animation: blink 2s 1s infinite alternate;*/
+}
+.whiteCircleBig{
+  height: 1.1em;
+  width: 1.1em;
+  border-radius: 50%;
+  background-color: white;
+  margin-left: -1.5em;
+  margin-top: -1.3em;
+  opacity: .7;
+}
+.whiteCircleSmall{
+  height: .51em;
+  width: .51em;
+  border-radius: 50%;
+  background-color: white;
+  animation: shift 2s 1s infinite alternate;
+  opacity: .5;
+}
+@keyframes blink {
+  50% {
+    height: 0em;
+    border-top: 10px solid #A42B45;
+    border-bottom: 10px solid #A42B45;
+  }
+}
+@keyframes shift {
+  50% {
+    /*margin: 1em;*/
+    margin-left: .5em;
+    opacity: .2;
+  }
+}
+.wrinkle1{
+  border-radius: 50%;
+  border-top: 3px solid #A42B45;
+  border-bottom: 3px solid #A42B45;
+  padding-top: .8em;
+  padding-bottom: .8em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /*overflow: hidden;*/
+}
+.head {
+  padding-top: 1em;
+  height: 10em;
+  width: 10em;
+  background-color: #FE0037;
+  border-top-left-radius: 10em 4em;
+  border-top-right-radius: 10em 4em;
+}
+/*#AF39CD - purple*/
+/*#43D5FD - baby blue*/
+/*#900623*/
