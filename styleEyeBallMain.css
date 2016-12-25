@@ -224,6 +224,52 @@ body {
   border-radius: 50%;
   z-index: -1;
 }
+.green{
+  position: absolute;
+  left: 40%;
+  top: 76.3%;
+  background-color: #00FF88;
+  height: 100%;
+  width: 2%;
+}
+.blue{
+  position: absolute;
+  left: 42%;
+  top: 76.3%;
+  background-color: #18EAFF;
+  height: 100%;
+  width: 2%;
+}
+.yellow{
+  position: absolute;
+  left: 44%;
+  top: 76.3%;
+  background-color: #F8FF34;
+  height: 100%;
+  width: 2%;
+}
+.orange{
+  position: absolute;
+  left: 46%;
+  top: 76.3%;
+  background-color: #FC8C40;
+  height: 100%;
+  width: 2%;
+}
+.purple{
+  position: absolute;
+  left: 48%;
+  top: 76.3%;
+  background-color: #A000F7;
+  height: 100%;
+  width: 2%;
+}
+.tongueRight{
+  position: absolute;
+  left: 50%;
+}
+
+
 /*#AF39CD - purple*/
 /*#43D5FD - baby blue*/
 /*#900623*/
