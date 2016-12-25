@@ -228,6 +228,13 @@ html{
   perspective: 150px;
   margin: 65% 25%;
 }
+.tongue2{
+  display: flex;
+  -webkit-perspective: 150px; /* Chrome, Safari, Opera  */
+  perspective: 150px;
+  margin: -133.7% 2%;
+  padding-left: 50%;
+}
 .green{
   background-color: #00FF88;
   height: 55%;
