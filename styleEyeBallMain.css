@@ -1,8 +1,7 @@
 
 html{
   background-image: url(image/stars.jpg);
-  height: 60vh;
-  width: 100vw;
+
 }
   body {
   display: flex;
@@ -270,6 +269,7 @@ html{
   -webkit-transform: rotateX(80deg); /* Chrome, Safari, Opera  */
   transform: rotateX(80deg);
 }
+
 
 /*#AF39CD - purple*/
 /*#43D5FD - baby blue*/
