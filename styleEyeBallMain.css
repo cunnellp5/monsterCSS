@@ -59,6 +59,78 @@ html{
   background: black;
 }
 
+.earsMain {
+  position: absolute;
+  top: -160%;
+  left: 48%;
+  transform: translate(-50%, -50%);
+  z-index: -21;
+}
+
+.earsMain-pos {
+  position: relative;
+  width: 18em;
+  height: 18em;
+  -webkit-border-top-left-radius: 12em;
+  -webkit-border-top-right-radius: 12em;
+  -webkit-border-bottom-right-radius: 12em;
+  -webkit-border-bottom-left-radius: 12em;
+  -moz-border-radius-topleft: 12em;
+  -moz-border-radius-topright: 12em;
+  -moz-border-radius-bottomright: 12em;
+  -moz-border-radius-bottomleft: 12em;
+  border-top-left-radius: 12em;
+  border-top-right-radius: 12em;
+  border-bottom-right-radius: 12em;
+  border-bottom-left-radius: 12em;
+  background: #fc003a;
+  transform: rotate(45deg);
+}
+.earsMain-pos{
+  box-shadow: 0px 0px 5px 10px #8b0325;
+}
+
+.earsMain-neg {
+  position: absolute;
+  top: -69;
+  right: 0;
+  width: 18em;
+  height: 18em;
+  -webkit-border-top-left-radius: 9em;
+  -webkit-border-top-right-radius: 9em;
+  -webkit-border-bottom-right-radius: 9em;
+  -webkit-border-bottom-left-radius: 9em;
+  -moz-border-radius-topleft: 9em;
+  -moz-border-radius-topright: 9em;
+  -moz-border-radius-bottomright: 9em;
+  -moz-border-radius-bottomleft: 9em;
+  border-top-left-radius: 9em;
+  border-top-right-radius: 9em;
+  border-bottom-right-radius: 9em;
+  border-bottom-left-radius: 9em;
+  background-image: url(image/stars.jpg);
+
+}
+.earsMain-neg2 {
+  position: absolute;
+  top: 0;
+  right: 75;
+  width: 18em;
+  height: 18em;
+  -webkit-border-top-left-radius: 9em;
+  -webkit-border-top-right-radius: 9em;
+  -webkit-border-bottom-right-radius: 9em;
+  -webkit-border-bottom-left-radius: 9em;
+  -moz-border-radius-topleft: 9em;
+  -moz-border-radius-topright: 9em;
+  -moz-border-radius-bottomright: 9em;
+  -moz-border-radius-bottomleft: 9em;
+  border-top-left-radius: 9em;
+  border-top-right-radius: 9em;
+  border-bottom-right-radius: 9em;
+  border-bottom-left-radius: 9em;
+  background-image: url(image/stars.jpg);
+}
 .wrap{
   position: absolute;
   left: 4em;
@@ -171,7 +243,7 @@ html{
   background-color: #FE0037;
   border-top-left-radius: 10em 4em;
   border-top-right-radius: 10em 4em;
-  box-shadow: 0px 0px 50px 1px black;
+  /*box-shadow: 0px 0px 50px 1px black;*/
 }
 .mouth{
 

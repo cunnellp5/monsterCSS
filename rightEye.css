@@ -6,8 +6,8 @@
   height: 3em;
   width: 3em;
   border-radius: 50%;
-  border: 3px solid purple;
-  animation: blink 5s 2.2s infinite alternate;
+  border: 3px solid #22eafe;
+  animation: blinkr 8s infinite alternate;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -25,8 +25,8 @@
   position: absolute;
   top: auto;
   left: auto;
-  height: 2em;
-  width: 2em;
+  height: 1.5em;
+  width: 1.5em;
   border-radius: 50%;
   background-color: #43D5FD;
   background: linear-gradient(to top, #43D5FD, #AF39CD);
@@ -38,8 +38,8 @@
   animation: move 9s 4.2s infinite alternate;
 }
 .pupilRight{
-  height: 1.7em;
-  width: 1.7em;
+  height: .7em;
+  width: .7em;
   border-radius: 50%;
   background-color: black;
   display: flex;
@@ -64,11 +64,21 @@
   animation: shift 5s 2.2s infinite alternate;
   opacity: .2;
 }
-@keyframes blink {
+.rightBody{
+  position: absolute;
+  left: 162%;
+  top: 57%;
+  height: 5em;
+  width: 5em;
+  border-radius: 50%;
+  background-color: #22eafe;
+  box-shadow: 0 0 100px 0px #22eafe;
+}
+@keyframes blinkr {
   50% {
     height: 0em;
-    border-top: 10px solid #A42B45;
-    border-bottom: 10px solid #A42B45;
+    border-top: 10px solid #22eafe;
+    border-bottom: 10px solid #22eafe;
   }
 }
 @keyframes shift {
