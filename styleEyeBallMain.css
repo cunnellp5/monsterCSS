@@ -4,14 +4,16 @@ html{
 
 }
   body {
+  position: absolute;
+  left: 40%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .wrap{
-  position: relative;
+  position: absolute;
   left: 4em;
-  top: 1em;
+  top: 55%;
 }
 .eyeBoarder{
   height: 4em;
@@ -108,6 +110,9 @@ html{
   align-items: center;
   /*overflow: hidden;*/
 }
+.wrapMouth{
+  margin-top: 8em;
+}
 .head {
   margin-top: 15em;
   padding-top: 1em;
@@ -119,6 +124,7 @@ html{
   box-shadow: 0px 0px 50px 1px black;
 }
 .mouth{
+
   margin: 4em auto;
   height: 5em;
   width: 10em;
@@ -151,61 +157,75 @@ html{
   background-color: rgba(164, 43, 69, 1);
 }
 .teeth1{
+  position: absolute;
   background-color: #FDEEA9;
-  height: 6%;
+  height: 3%;
   width: 9%;
-  margin: -75% auto;
+  left: 45.5%;
+  top: 77.6%;
   border-bottom-left-radius: 10%;
   border-bottom-right-radius: 10%;
 }
 .teeth2{
+  position: absolute;
   background-color: #FDEEA9;
-  height: 6%;
+  height: 3%;
   width: 9%;
-  margin: 67.3% 30%;
+  top: 77.6%;
+  left: 30%;
   border-bottom-left-radius: 10%;
   border-bottom-right-radius: 10%;
 }
 .teeth3{
+  position: absolute;
+  top: 77.6%;
+  left: 14%;
   background-color: #FDEEA9;
-  height: 6%;
+  height: 3%;
   width: 9%;
-  margin: -74.5% 13%;
   border-bottom-left-radius: 10%;
   border-bottom-right-radius: 10%;
   border-top-left-radius: 40%;
 }
 .teeth4{
+  position: absolute;
+  top: 77.6%;
+  left: 62%;
   background-color: #FDEEA9;
-  height: 6%;
+  height: 3%;
   width: 9%;
-  margin: 67% 62%;
   border-bottom-left-radius: 10%;
   border-bottom-right-radius: 10%;
 }
 .teeth5{
+  position: absolute;
+  top: 77.6%;
+  left: 77%;
   background-color: #FDEEA9;
-  height: 6%;
+  height: 3%;
   width: 9%;
-  margin: -74% 79%;
   border-bottom-left-radius: 10%;
   border-bottom-right-radius: 10%;
   border-top-right-radius: 40%;
 }
 .teeth6{
+  position: absolute;
+  top: 90.6%;
+  left: 74%;
   background-color: #FDEEA9;
-  height: 6%;
+  height: 3%;
   width: 9%;
-  margin: 100% 75%;
   border-top-right-radius: 20%;
   border-top-left-radius: 20%;
   border-bottom-right-radius: 20%;
 }
 .teeth7{
+  position: absolute;
+  top: 90.6%;
+  left: 17%;
   background-color: #FDEEA9;
-  height: 6%;
+  height: 3%;
   width: 9%;
-  margin: -107% 17%;
   border-bottom-left-radius: 40%;
   border-top-left-radius: 10%;
   border-bottom-right-radius: 10%;
@@ -220,54 +240,6 @@ html{
   background-color: #FE0037;
   border-radius: 50%;
   z-index: -100;
-}
-.tongue{
-  display: flex;
-  -webkit-perspective: 150px; /* Chrome, Safari, Opera  */
-  perspective: 150px;
-  margin: 65% 25%;
-}
-.tongue2{
-  display: flex;
-  -webkit-perspective: 150px; /* Chrome, Safari, Opera  */
-  perspective: 150px;
-  margin: -133.7% 2%;
-  padding-left: 50%;
-}
-.green{
-  background-color: #00FF88;
-  height: 55%;
-  width: 11%;
-  -webkit-transform: rotateX(80deg); /* Chrome, Safari, Opera  */
-  transform: rotateX(80deg);
-}
-.blue{
-  background-color: #18EAFF;
-  height: 55%;
-  width: 11%;
-  -webkit-transform: rotateX(80deg); /* Chrome, Safari, Opera  */
-  transform: rotateX(80deg);
-}
-.yellow{
-  background-color: #F8FF34;
-  height: 55%;
-  width: 11%;
-  -webkit-transform: rotateX(80deg); /* Chrome, Safari, Opera  */
-  transform: rotateX(80deg);
-}
-.orange{
-  background-color: #FC8C40;
-  height: 55%;
-  width: 11%;
-  -webkit-transform: rotateX(80deg); /* Chrome, Safari, Opera  */
-  transform: rotateX(80deg);
-}
-.purple{
-  background-color: #A000F7;
-  height: 55%;
-  width: 11%;
-  -webkit-transform: rotateX(80deg); /* Chrome, Safari, Opera  */
-  transform: rotateX(80deg);
 }
 
 
