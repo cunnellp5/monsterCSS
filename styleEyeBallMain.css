@@ -10,18 +10,18 @@ html{
   justify-content: center;
   align-items: center;
 }
-.hornLeft {
+.hornMain {
   position: absolute;
-  top: 50%;
-  left: 50%;
+  top: -30%;
+  left: 48%;
   transform: translate(-50%, -50%);
   z-index: -20;
 }
 
-.hornLeft-pos {
+.hornMain-pos {
   position: relative;
-  width: 12em;
-  height: 12em;
+  width: 10em;
+  height: 10em;
   -webkit-border-top-left-radius: 12em;
   -webkit-border-top-right-radius: 12em;
   -webkit-border-bottom-right-radius: 12em;
@@ -38,12 +38,12 @@ html{
   transform: rotate(-45deg);
 }
 
-.hornLeft-neg {
+.hornMain-neg {
   position: absolute;
   top: 0;
   right: 0;
-  width: 9em;
-  height: 9em;
+  width: 8em;
+  height: 8em;
   -webkit-border-top-left-radius: 9em;
   -webkit-border-top-right-radius: 9em;
   -webkit-border-bottom-right-radius: 9em;
