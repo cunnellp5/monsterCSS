@@ -1,7 +1,81 @@
 
 .green {
   position: absolute;
-  height: 2em;
-  width: 1em;
+  top: 29em;
+  left: 2.3em;
+  height: 20em;
+  width: .7em;
   background-color: #00ff88;
+}
+.blue{
+  position: absolute;
+  top: 29em;
+  left: 3em;
+  height: 20em;
+  width: .75em;
+  background-color: #23e8fd;
+}
+.yellow{
+  position: absolute;
+  top: 29em;
+  left: 3.75em;
+  height: 20em;
+  width: .75em;
+  background-color: #f8ff33;
+}
+.orange{
+  position: absolute;
+  top: 29em;
+  left: 4.5em;
+  height: 20em;
+  width: .75em;
+  background-color: #fc8c40;
+}
+.purple{
+  position: absolute;
+  top: 29em;
+  left: 5.25em;
+  height: 20em;
+  width: .75em;
+  background-color: #a200fb;
+}
+.green2 {
+  position: absolute;
+  top: 29em;
+  left: 6em;
+  height: 20em;
+  width: .75em;
+  background-color: #00ff88;
+}
+.blue2{
+  position: absolute;
+  top: 29em;
+  left: 6.75em;
+  height: 20em;
+  width: .75em;
+  background-color: #23e8fd;
+}
+.yellow2{
+  position: absolute;
+  top: 29em;
+  left: 7.5em;
+  height: 20em;
+  width: .75em;
+  background-color: #f8ff33;
+}
+.orange2{
+  position: absolute;
+  top: 29em;
+  left: 8.25em;
+  height: 20em;
+  width: .75em;
+  background-color: #fc8c40;
+}
+.purple2{
+  position: absolute;
+  top: 29em;
+  left: 9em;
+  height: 20em;
+  width: .75em;
+  background-color: #a200fb;
 }

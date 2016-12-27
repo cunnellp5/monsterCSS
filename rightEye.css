@@ -74,6 +74,13 @@
   background-color: #22eafe;
   box-shadow: 0 0 100px 0px #22eafe;
 }
+.rightGuy{
+  position: absolute;
+  left: 14em;
+  top: 10em;
+  z-index: -1;
+  transform: rotate(-90deg);
+}
 @keyframes blinkr {
   50% {
     height: 0em;

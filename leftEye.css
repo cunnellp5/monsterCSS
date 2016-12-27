@@ -77,7 +77,13 @@
   border-bottom-right-radius: 50%;
   box-shadow: 0 0 100px 5px #a100fc;
 }
-
+.leftGuy{
+  position: absolute;
+  z-index: -1;
+  top: 10em;
+  left: -18.6em;
+  transform: rotate(-90deg);
+}
 
 @keyframes blinkl {
   50% {
