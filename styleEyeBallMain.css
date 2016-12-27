@@ -1,7 +1,7 @@
 
 html{
   background-image: url(image/stars.jpg);
-
+  /*animation: background 5s 1s infinite alternate;*/
 }
   body {
   position: absolute;
@@ -10,6 +10,55 @@ html{
   justify-content: center;
   align-items: center;
 }
+.hornLeft {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -20;
+}
+
+.hornLeft-pos {
+  position: relative;
+  width: 12em;
+  height: 12em;
+  -webkit-border-top-left-radius: 12em;
+  -webkit-border-top-right-radius: 12em;
+  -webkit-border-bottom-right-radius: 12em;
+  -webkit-border-bottom-left-radius: 12em;
+  -moz-border-radius-topleft: 12em;
+  -moz-border-radius-topright: 12em;
+  -moz-border-radius-bottomright: 12em;
+  -moz-border-radius-bottomleft: 12em;
+  border-top-left-radius: 12em;
+  border-top-right-radius: 12em;
+  border-bottom-right-radius: 12em;
+  border-bottom-left-radius: 12em;
+  background: #fffdd0;
+  transform: rotate(-45deg);
+}
+
+.hornLeft-neg {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 9em;
+  height: 9em;
+  -webkit-border-top-left-radius: 9em;
+  -webkit-border-top-right-radius: 9em;
+  -webkit-border-bottom-right-radius: 9em;
+  -webkit-border-bottom-left-radius: 9em;
+  -moz-border-radius-topleft: 9em;
+  -moz-border-radius-topright: 9em;
+  -moz-border-radius-bottomright: 9em;
+  -moz-border-radius-bottomleft: 9em;
+  border-top-left-radius: 9em;
+  border-top-right-radius: 9em;
+  border-bottom-right-radius: 9em;
+  border-bottom-left-radius: 9em;
+  background: black;
+}
+
 .wrap{
   position: absolute;
   left: 4em;
@@ -81,6 +130,7 @@ html{
     border-bottom: 10px solid #A42B45;
   }
 }
+
 @keyframes shift {
   50% {
     /*margin: 1em;*/
@@ -238,7 +288,7 @@ html{
   height: 85em;
   width: 60em;
   background-color: #FE0037;
-  border-radius: 50%;
+  border-radius: 50%/ 70%;
   z-index: -100;
 }
 
