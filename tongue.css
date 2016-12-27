@@ -6,6 +6,9 @@
   height: 20em;
   width: .7em;
   background-color: #00ff88;
+  animation: green 1s infinite;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
 }
 .blue{
   position: absolute;
@@ -14,6 +17,9 @@
   height: 20em;
   width: .75em;
   background-color: #23e8fd;
+  animation: blue 1s infinite;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
 }
 .yellow{
   position: absolute;
@@ -22,6 +28,9 @@
   height: 20em;
   width: .75em;
   background-color: #f8ff33;
+  animation: yellow 1s infinite;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
 }
 .orange{
   position: absolute;
@@ -30,6 +39,9 @@
   height: 20em;
   width: .75em;
   background-color: #fc8c40;
+  animation: orange 1s infinite;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
 }
 .purple{
   position: absolute;
@@ -38,6 +50,9 @@
   height: 20em;
   width: .75em;
   background-color: #a200fb;
+  animation: purple 1s infinite;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
 }
 .green2 {
   position: absolute;
@@ -46,6 +61,9 @@
   height: 20em;
   width: .75em;
   background-color: #00ff88;
+  animation: green 1s infinite;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
 }
 .blue2{
   position: absolute;
@@ -54,6 +72,9 @@
   height: 20em;
   width: .75em;
   background-color: #23e8fd;
+  animation: blue 1s infinite;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
 }
 .yellow2{
   position: absolute;
@@ -62,6 +83,9 @@
   height: 20em;
   width: .75em;
   background-color: #f8ff33;
+  animation: yellow 1s infinite;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
 }
 .orange2{
   position: absolute;
@@ -70,6 +94,9 @@
   height: 20em;
   width: .75em;
   background-color: #fc8c40;
+  animation: orange 1s infinite;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
 }
 .purple2{
   position: absolute;
@@ -78,4 +105,112 @@
   height: 20em;
   width: .75em;
   background-color: #a200fb;
+  animation: purple 1s infinite;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+}
+@keyframes purple {
+  20%{
+    background-color: #fc8c40; /*orange*/
+    height: 20em;
+  }
+  40%{
+    background-color: #f8ff33; /*yellow*/
+    height: 15em;
+  }
+  60%{
+    background-color: #23e8fd; /*blue*/
+    height: 10em;
+  }
+  80%{
+    background-color: #00ff88; /*green*/
+    height: 5em;
+  }
+  100%{
+    background-color: #a200fb; /*purp*/
+    height: 15em;
+  }
+}
+@keyframes orange {
+  20%{
+    background-color: #f8ff33; /*yellow*/
+    height: 15em;
+  }
+  40%{
+    background-color: #23e8fd; /*blue*/
+    height: 10em;
+  }
+  60%{
+    background-color: #00ff88; /*green*/
+    height: 15em;
+  }
+  80%{
+    background-color: #a200fb; /*purp*/
+    height: 18em;
+  }
+  100%{
+    background-color: #fc8c40; /*orange*/
+    
+  }
+}
+@keyframes yellow {
+  20%{
+    background-color: #23e8fd; /*blue*/
+  }
+  40%{
+    background-color: #00ff88; /*green*/
+  }
+  60%{
+    background-color: #a200fb; /*purp*/
+  }
+  80%{
+    background-color: #fc8c40; /*orange*/
+    height: 10em;
+  }
+  100%{
+    background-color: #f8ff33; /*yellow*/
+  }
+}
+@keyframes blue {
+  20%{
+    background-color: #00ff88; /*green*/
+    height: 18em;
+  }
+  40%{
+    background-color: #a200fb; /*purp*/
+    height: 16em;
+  }
+  60%{
+    background-color: #fc8c40; /*orange*/
+    height: 14em;
+  }
+  80%{
+    background-color: #f8ff33; /*yellow*/
+    height: 12em;
+  }
+  100%{
+    background-color: #23e8fd; /*blue*/
+    height: 10em;
+  }
+}
+@keyframes green {
+  20%{
+    background-color: #a200fb;
+    height: 16em;
+  }
+  40%{
+    background-color: #fc8c40;
+    height: 17em;
+  }
+  60%{
+    background-color: #f8ff33;
+    height: 18em;
+  }
+  80%{
+    background-color: #23e8fd;
+    height: 19em;
+  }
+  100%{
+    background-color: #00ff88;
+  }
 }
