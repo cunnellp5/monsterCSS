@@ -75,6 +75,7 @@
   border-bottom-left-radius: 50%;
   border-bottom-right-radius: 50%;
   box-shadow: 0 0 100px 5px #a100fc;
+  animation: fly2 8s infinite;
 }
 .leftGuy{
   position: absolute;
@@ -82,9 +83,12 @@
   top: 6em;
   left: -18.6em;
   transform: rotate(-90deg);
+  animation: fly1 8s infinite;
 }
 .wrapMe{
   position: absolute;
+  animation: fly 8s infinite;
+  top: 16em;
   /*display: flex;
   justify-content: center;
   align-items: center;*/
@@ -105,6 +109,23 @@
   z-index: -2;
   top: 16.5em;
   left: -21.7em;
+  animation: fly 8s infinite;
+}
+
+@keyframes fly {
+  40%{
+    top: 15em;
+  }
+}
+@keyframes fly1 {
+  40%{
+    top: 5em;
+  }
+}
+@keyframes fly2 {
+  40%{
+    top: 41%;
+  }
 }
 @keyframes blinkl {
   50% {
@@ -131,8 +152,6 @@
     margin-top: .5em;
   }
 }
-
-
 @keyframes dialate {
   20% {
     height: 2em;
