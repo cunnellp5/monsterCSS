@@ -6,7 +6,7 @@
   height: 20em;
   width: .7em;
   background-color: #00ff88;
-  animation: green 1s infinite;
+  animation: green 1s infinite alternate;
   border-bottom-left-radius: 50%;
   border-bottom-right-radius: 50%;
 }
@@ -17,7 +17,7 @@
   height: 20em;
   width: .75em;
   background-color: #23e8fd;
-  animation: blue 1s infinite;
+  animation: blue 1s infinite alternate;
   border-bottom-left-radius: 50%;
   border-bottom-right-radius: 50%;
 }
@@ -28,7 +28,7 @@
   height: 20em;
   width: .75em;
   background-color: #f8ff33;
-  animation: yellow 1s infinite;
+  animation: yellow 1s infinite alternate;
   border-bottom-left-radius: 50%;
   border-bottom-right-radius: 50%;
 }
@@ -39,7 +39,7 @@
   height: 20em;
   width: .75em;
   background-color: #fc8c40;
-  animation: orange 1s infinite;
+  animation: orange 1s infinite alternate;
   border-bottom-left-radius: 50%;
   border-bottom-right-radius: 50%;
 }
@@ -50,7 +50,7 @@
   height: 20em;
   width: .75em;
   background-color: #a200fb;
-  animation: purple 1s infinite;
+  animation: purple 1s infinite alternate;
   border-bottom-left-radius: 50%;
   border-bottom-right-radius: 50%;
 }
@@ -61,7 +61,7 @@
   height: 20em;
   width: .75em;
   background-color: #00ff88;
-  animation: green 1s infinite;
+  animation: green2 1s infinite alternate;
   border-bottom-left-radius: 50%;
   border-bottom-right-radius: 50%;
 }
@@ -72,7 +72,7 @@
   height: 20em;
   width: .75em;
   background-color: #23e8fd;
-  animation: blue 1s infinite;
+  animation: blue2 1s infinite alternate;
   border-bottom-left-radius: 50%;
   border-bottom-right-radius: 50%;
 }
@@ -83,7 +83,7 @@
   height: 20em;
   width: .75em;
   background-color: #f8ff33;
-  animation: yellow 1s infinite;
+  animation: yellow2 1s infinite alternate;
   border-bottom-left-radius: 50%;
   border-bottom-right-radius: 50%;
 }
@@ -94,7 +94,7 @@
   height: 20em;
   width: .75em;
   background-color: #fc8c40;
-  animation: orange 1s infinite;
+  animation: orange2 1s infinite alternate;
   border-bottom-left-radius: 50%;
   border-bottom-right-radius: 50%;
 }
@@ -105,9 +105,114 @@
   height: 20em;
   width: .75em;
   background-color: #a200fb;
-  animation: purple 1s infinite;
+  animation: purple2 1s infinite alternate;
   border-bottom-left-radius: 50%;
   border-bottom-right-radius: 50%;
+}
+@keyframes purple2 {
+  20%{
+    background-color: #fc8c40; /*orange*/
+    height: 20em;
+  }
+  40%{
+    background-color: #f8ff33; /*yellow*/
+    height: 15em;
+  }
+  60%{
+    background-color: #23e8fd; /*blue*/
+    height: 12em;
+  }
+  80%{
+    background-color: #00ff88; /*green*/
+    height: 18em;
+  }
+  100%{
+    background-color: #a200fb; /*purp*/
+    height: 15em;
+  }
+}
+@keyframes orange2 {
+  20%{
+    background-color: #f8ff33; /*yellow*/
+    height: 15em;
+  }
+  40%{
+    background-color: #23e8fd; /*blue*/
+    height: 10em;
+  }
+  60%{
+    background-color: #00ff88; /*green*/
+    height: 15em;
+  }
+  80%{
+    background-color: #a200fb; /*purp*/
+    height: 18em;
+  }
+  100%{
+    background-color: #fc8c40; /*orange*/
+
+  }
+}
+@keyframes yellow2 {
+  20%{
+    background-color: #23e8fd; /*blue*/
+    height: 10em;
+  }
+  40%{
+    background-color: #00ff88; /*green*/
+  }
+  60%{
+    background-color: #a200fb; /*purp*/
+  }
+  80%{
+    background-color: #fc8c40; /*orange*/
+  }
+  100%{
+    background-color: #f8ff33; /*yellow*/
+  }
+}
+@keyframes blue2 {
+  20%{
+    background-color: #00ff88; /*green*/
+    height: 10em;
+  }
+  40%{
+    background-color: #a200fb; /*purp*/
+    height: 12em;
+  }
+  60%{
+    background-color: #fc8c40; /*orange*/
+    height: 14em;
+  }
+  80%{
+    background-color: #f8ff33; /*yellow*/
+    height: 16em;
+  }
+  100%{
+    background-color: #23e8fd; /*blue*/
+    height: 18em;
+  }
+}
+@keyframes green2 {
+  20%{
+    background-color: #a200fb;
+    height: 19em;
+  }
+  40%{
+    background-color: #fc8c40;
+    height: 18em;
+  }
+  60%{
+    background-color: #f8ff33;
+    height: 17em;
+  }
+  80%{
+    background-color: #23e8fd;
+    height: 16em;
+  }
+  100%{
+    background-color: #00ff88;
+  }
 }
 @keyframes purple {
   20%{
@@ -124,11 +229,11 @@
   }
   80%{
     background-color: #00ff88; /*green*/
-    height: 5em;
+    height: 15em;
   }
   100%{
     background-color: #a200fb; /*purp*/
-    height: 15em;
+    height: 20em;
   }
 }
 @keyframes orange {
@@ -150,7 +255,7 @@
   }
   100%{
     background-color: #fc8c40; /*orange*/
-    
+
   }
 }
 @keyframes yellow {

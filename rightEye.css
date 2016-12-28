@@ -1,13 +1,12 @@
 
 .eyeBoarderRight{
   position: absolute;
-  top: 60%;
-  left: 170%;
-  height: 3em;
-  width: 3em;
+  left: 20.25em;
+  height: 2.5em;
+  width: 2.5em;
   border-radius: 50%;
   border: 3px solid #22eafe;
-  animation: blinkr 8s infinite alternate;
+  animation: blinkr 1.8s infinite alternate;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -21,10 +20,20 @@
   justify-content: center;
   align-items: center;
 }
-.irisRight{
+.wrapIt{
   position: absolute;
-  top: auto;
-  left: auto;
+}
+.wrinkleRight{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.wrinkleRight2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.irisRight{
   height: 1.5em;
   width: 1.5em;
   border-radius: 50%;
@@ -36,6 +45,8 @@
   box-shadow: 0px 0px 20px 20px white;
   border: .35em solid white;
   animation: move 9s 4.2s infinite alternate;
+  animation: red 10s 5s infinite;
+
 }
 .pupilRight{
   height: .7em;
@@ -45,7 +56,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  animation: dialate 10s 10s infinite alternate;
+  animation: dialate 10s infinite alternate;
 }
 .whiteCircleBigRight{
   height: 1.1em;
@@ -66,18 +77,18 @@
 }
 .rightBody{
   position: absolute;
-  left: 162%;
-  top: 57%;
-  height: 5em;
-  width: 5em;
+  left: 19.3em;
+  top: 13.2em;
+  height: 4.55em;
+  width: 4.55em;
   border-radius: 50%;
   background-color: #22eafe;
   box-shadow: 0 0 100px 0px #22eafe;
 }
 .rightGuy{
   position: absolute;
-  left: 14em;
-  top: 10em;
+  left: 13.75em;
+  top: 5em;
   z-index: -1;
   transform: rotate(-90deg);
 }
@@ -90,6 +101,7 @@
 }
 @keyframes shift {
   50% {
+
     /*margin: 1em;*/
     margin-left: .5em;
     opacity: 0;
@@ -97,7 +109,7 @@
 }
 @keyframes move {
   20% {
-    margin-bottom: 4em;
+
   }
   50% {
     margin-left: .5em;
@@ -107,17 +119,22 @@
   }
 }
 
-
 @keyframes dialate {
   20% {
     height: 2em;
     width: 2em;
   }
   50% {
-    height: 1em;
-    width: 1em;
+    height: .41em;
+    width: .41em;
   }
 }
 
+@keyframes red {
+  50% {
+  box-shadow: 0px 0px 20px 20px pink;
+    border: .35em solid pink;
+  }
+}
 /*#AF39CD - purple*/
 /*#43D5FD - baby blue*/

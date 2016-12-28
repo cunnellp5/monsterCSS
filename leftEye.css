@@ -1,8 +1,7 @@
-
 .eyeBoarderLeft{
   position: absolute;
-  top: 60%;
-  left: -100%;
+  left: -12em;
+  /*top: 11em;*/
   height: 2em;
   width: 2em;
   border-radius: 50%;
@@ -22,9 +21,9 @@
   align-items: center;
 }
 .irisLeft{
-  position: absolute;
-  top: auto;
-  left: auto;
+  /*position: absolute;*/
+  /*top: auto;
+  left: auto;*/
   height: 1.5em;
   width: 1.5em;
   border-radius: 50%;
@@ -68,7 +67,7 @@
 .leftBody{
   position: absolute;
   left: -102.5%;
-  top: 57%;
+  top: 44%;
   height: 4em;
   width: 3em;
   background-color: #a100fc;
@@ -80,16 +79,38 @@
 .leftGuy{
   position: absolute;
   z-index: -1;
-  top: 10em;
+  top: 6em;
   left: -18.6em;
   transform: rotate(-90deg);
 }
-
+.wrapMe{
+  position: absolute;
+  /*display: flex;
+  justify-content: center;
+  align-items: center;*/
+}
+.wrinkle1Left{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.wrinkle2Left{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.wingsLeft{
+  position: absolute;
+  transform: rotate(90deg);
+  z-index: -2;
+  top: 16.5em;
+  left: -21.7em;
+}
 @keyframes blinkl {
   50% {
     height: 0em;
-    border-top: 10px solid #a100fc;
-    border-bottom: 10px solid #a100fc;
+    border-top: 4px solid #7100b3;
+    border-bottom: 4px solid #7100b3;
   }
 }
 @keyframes shift {
