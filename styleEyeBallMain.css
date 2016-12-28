@@ -225,7 +225,7 @@ html{
   padding-top: 1em;
   height: 15em;
   width: 12em;
-  background-color: #FE0037;
+  background-color: #EE0038;
   border-top-left-radius: 10em 4em;
   border-top-right-radius: 10em 4em;
   /*box-shadow: 0px 30px 10px 10px black;*/
@@ -346,9 +346,481 @@ html{
   background-color: #FE0037;
   border-radius: 50%/ 70%;
   z-index: -100;
+  box-shadow: 0 0 100px 0 #FE0037;
 }
 
+.armPit{
+  position: absolute;
+  top: 23em;
+  left: 1em;
+  transform: rotate(-90deg);
+  width:500px; height:100px;
+  border:solid 4px #000;
+  border-color:#BA0021 transparent transparent transparent;
+  border-radius: 50%/100px 80px 25% 0;
+}
+.armPit2{
+  position: absolute;
+  top: 22em;
+  left: 1em;
+  transform: rotate(-90deg);
+  width:500px; height:100px;
+  border:solid 5px #000;
+  border-color:#BA0021 transparent transparent transparent;
+  border-radius: 50%/100px 70px 0 0;
+}
+.armPitRight{
+  position: absolute;
+  top: 23em;
+  left: 27em;
+  transform: rotate(90deg);
+  width:500px; height:100px;
+  border:solid 4px #000;
+  border-color:#BA0021 transparent transparent transparent;
+  border-radius: 50%/100px 80px 25% 0;
+}
+.armPitRight2{
+  position: absolute;
+  top: 22em;
+  left: 27em;
+  transform: rotate(90deg);
+  width:500px; height:100px;
+  border:solid 5px #000;
+  border-color:#BA0021 transparent transparent transparent;
+  border-radius: 50%/100px 70px 0 0;
+}
+.nippleLeft{
+  width: 1em;
+  height: 1em;
+  background-color: #BA0021;
+  position: absolute;
+  border-radius: 50%;
+  left: 20em;
+  top: 22em;
+  box-shadow: 0 0 10px 3px #BA0021
+}
+.nippleRight{
+  width: 1em;
+  height: 1em;
+  background-color: #BA0021;
+  position: absolute;
+  border-radius: 50%;
+  left: 38em;
+  top: 22em;
+  box-shadow: 0 0 10px 3px #BA0021
+}
+.triangle{
+  position: absolute;
+  z-index: -1;
+  transform: rotate(-60deg);
+  top: 28.6em;
+  left: .8em;
+  width: 0;
+  height: 0;
+  border-top: 30px solid transparent;
+  border-left: 50px solid #B20024;
+  border-bottom: 30px solid transparent;
+}
+.triangle1{
+  position: absolute;
+  z-index: -1;
+  transform: rotate(-120deg);
+  top: 28.6em;
+  left: 8.02em;
+  width: 0;
+  height: 0;
+  border-top: 30px solid transparent;
+  border-left: 50px solid #B20024;
+  border-bottom: 30px solid transparent;
+}
+.mouthWrinkleLeft{
+  position: absolute;
+  top: 20.8em;
+  left: 3.5em;
+  padding-bottom: 10.6em;
+  transform: rotate(-90deg);
+  width:85px; height:10px;
+  border-color:#BA0021 transparent transparent transparent;
+  border-radius: 24%;
+  border-top: 2px solid rgba(164, 43, 69, 0.41);;
+}
+.mouthWrinkleLeft1{
+  position: absolute;
+  top: 20.8em;
+  left: 3.3em;
+  padding-bottom: 10.6em;
+  transform: rotate(-90deg);
+  width:85px; height:10px;
+  border-color:#BA0021 transparent transparent transparent;
+  border-radius: 18%;
+  border-top: 2px solid rgba(164, 43, 69, 0.41);;
+}
+.mouthWrinkleRight{
+  position: absolute;
+  top: 20.8em;
+  left: 3.2em;
+  padding-bottom: 10.6em;
+  transform: rotate(90deg);
+  width:85px; height:10px;
+  border-color:#BA0021 transparent transparent transparent;
+  border-radius: 24%;
+  border-top: 2px solid rgba(164, 43, 69, 0.41);;
+}
+.mouthWrinkleRight1{
+  position: absolute;
+  top: 20.8em;
+  left: 3.4em;
+  padding-bottom: 10.6em;
+  transform: rotate(90deg);
+  width:85px; height:10px;
+  border-color:#BA0021 transparent transparent transparent;
+  border-radius: 18%;
+  border-top: 2px solid rgba(164, 43, 69, 0.41);;
+}
+.wort1{
+position: absolute;
+top: 23.8em;
+left: -5em;
+background: #CD002B;
+border-radius: 40px/30px;
+height: 30px;
+width: 40px;
+margin: 0;
+transform: rotate(-15deg);
+background: radial-gradient(circle at 10px 1px, #F10038, #B00021);
+}
+.wort2{
+position: absolute;
+top: 25em;
+left: -8.8em;
+background: #CD002B;
+border-radius: 40px/30px;
+height: 35px;
+width: 45px;
+margin: 0;
+transform: rotate(-20deg);
+background: radial-gradient(circle at 10px 10px, #F10038, #B00021);
+}
+.wort3{
+position: absolute;
+top: 27.5em;
+left: -11.8em;
+background: #CD002B;
+border-radius: 40px/30px;
+height: 25px;
+width: 35px;
+margin: 0;
+transform: rotate(-35deg);
+background: radial-gradient(circle at 15px 10px, #F10038, #B00021);
+}
+.wort4{
+z-index: -1;
+position: absolute;
+top: 25.5em;
+left: -0.7em;
+background: #CD002B;
+border-radius: 40px/30px;
+height: 25px;
+width: 35px;
+margin: 0;
+transform: rotate(-35deg);
+background: radial-gradient(circle at 20px 10px, #F10038, #B00021);
+}
+.wort5{
+z-index: -1;
+position: absolute;
+top: 26.5em;
+left: -5.7em;
+background: #CD002B;
+border-radius: 35px/25px;
+height: 25px;
+width: 35px;
+margin: 0;
+transform: rotate(-20deg);
+background: radial-gradient(circle at 10px 1px, #F10038, #B00021);
+}
+.wort6{
+z-index: -1;
+position: absolute;
+top: 28em;
+left: -7.9em;
+background: #CD002B;
+border-radius: 25px/20px;
+height: 20px;
+width: 25px;
+margin: 0;
+transform: rotate(20deg);
+background: radial-gradient(circle at 10px 1px, #F10038, #B00021);
+}
+.wortRight1{
+position: absolute;
+top: 23.8em;
+left: 13em;
+background: #CD002B;
+border-radius: 40px/30px;
+height: 30px;
+width: 40px;
+margin: 0;
+transform: rotate(10deg);
+background: radial-gradient(circle at 10px 1px, #F10038, #B00021);
+}
+.wortRight2{
+position: absolute;
+top: 24.5em;
+left: 16.5em;
+background: #CD002B;
+border-radius: 40px/30px;
+height: 35px;
+width: 45px;
+margin: 0;
+transform: rotate(20deg);
+background: radial-gradient(circle at 10px 10px, #F10038, #B00021);
+}
+.wortRight3{
+position: absolute;
+top: 26.5em;
+left: 20em;
+background: #CD002B;
+border-radius: 40px/30px;
+height: 25px;
+width: 35px;
+margin: 0;
+transform: rotate(35deg);
+background: radial-gradient(circle at 15px 10px, #F10038, #B00021);
+}
+.wortRight4{
+z-index: -1;
+position: absolute;
+top: 26em;
+left: 10.4em;
+background: #CD002B;
+border-radius: 40px/30px;
+height: 25px;
+width: 35px;
+margin: 0;
+transform: rotate(35deg);
+background: radial-gradient(circle at 20px 10px, #F10038, #B00021);
+}
+.wortRight5{
+z-index: -1;
+position: absolute;
+top: 26em;
+left: 13em;
+background: #CD002B;
+border-radius: 35px/25px;
+height: 25px;
+width: 35px;
+margin: 0;
+transform: rotate(20deg);
+background: radial-gradient(circle at 10px 1px, #F10038, #B00021);
+}
+.wortRight6{
+z-index: -1;
+position: absolute;
+top: 27em;
+left: 17em;
+background: #CD002B;
+border-radius: 25px/20px;
+height: 20px;
+width: 25px;
+margin: 0;
+transform: rotate(-20deg);
+background: radial-gradient(circle at 10px 1px, #F10038, #B00021);
+}
+.wort7{
+z-index: -1;
+position: absolute;
+top: 15em;
+left: 9em;
+background: #8B0325;
+border-radius: 25px/20px;
+height: 20px;
+width: 25px;
+margin: 0;
+transform: rotate(20deg);
+background: radial-gradient(circle at 10px 1px, #F10038, #8B0325);
+}
+.wort8{
+z-index: -1;
+position: absolute;
+top: 15em;
+left: 1.2em;
+background: #8B0325;
+border-radius: 25px/20px;
+height: 20px;
+width: 25px;
+margin: 0;
+transform: rotate(-20deg);
+background: radial-gradient(circle at 10px 1px, #F10038, #8B0325);
+}
+@keyframes wrinkle {
+  50% {
+    top: 21em;
+  }
+}
+@keyframes wrinkle1 {
+  50% {
+    top: 20.5em;
+  }
+}
+@keyframes wrinkle2 {
+  50% {
+    top: 19.8em;
+  }
+}
+.faceFreckle{
+  background-color: #B00021;
+  opacity: .6;
+  height: .3em;
+  width: .3em;
+  position: absolute;
+  top: 22em;
+  left: 4em;
+  border-radius: 50%;
+  box-shadow: 0 0 10px 2px #B00021;
+  animation: wrinkle 2s 1s infinite alternate;
+}
+.faceFreckle1{
+  background-color: #B00021;
+  opacity: .5;
+  height: .3em;
+  width: .3em;
+  position: absolute;
+  top: 21em;
+  left: 3.5em;
+  border-radius: 50%;
+  box-shadow: 0 0 7px 2px #B00021;
+  animation: wrinkle1 2s 1s infinite alternate;
+}
+.faceFreckle2{
+  background-color: #B00021;
+  opacity: .5;
+  height: .3em;
+  width: .3em;
+  position: absolute;
+  top: 20em;
+  left: 3.5em;
+  border-radius: 50%;
+  box-shadow: 0 0 13px 2px #B00021;
+  animation: wrinkle2 2s 1s infinite alternate;
 
-/*#AF39CD - purple*/
-/*#43D5FD - baby blue*/
-/*#900623*/
+}
+.faceFreckle3{
+  background-color: #B00021;
+  opacity: .3;
+  height: .3em;
+  width: .3em;
+  position: absolute;
+  top: 20.3em;
+  left: 3em;
+  border-radius: 50%;
+  box-shadow: 0 0 13px 1px #B00021;
+    animation: wrinkle2 2s 1s infinite alternate;
+}
+.faceFreckle4{
+  background-color: #B00021;
+  opacity: .4;
+  height: .25em;
+  width: .25em;
+  position: absolute;
+  top: 21.8em;
+  left: 3em;
+  border-radius: 50%;
+  box-shadow: 0 0 13px 1px #B00021;
+  animation: wrinkle 2s 1s infinite alternate;
+}
+.faceFreckle5{
+  background-color: #B00021;
+  opacity: .4;
+  height: .25em;
+  width: .25em;
+  position: absolute;
+  top: 21.3em;
+  left: 2.8em;
+  border-radius: 50%;
+  box-shadow: 0 0 13px 1px #B00021;
+  animation: wrinkle1 2s 1s infinite alternate;
+}
+.faceFreckle6{
+  background-color: #B00021;
+  opacity: .6;
+  height: .3em;
+  width: .3em;
+  position: absolute;
+  top: 22.4em;
+  left: 7.8em;
+  border-radius: 50%;
+  box-shadow: 0 0 10px 2px #B00021;
+  animation: wrinkle 2s 1s infinite alternate;
+}
+.faceFreckle7{
+  background-color: #B00021;
+  opacity: .5;
+  height: .3em;
+  width: .3em;
+  position: absolute;
+  top: 20.7em;
+  left: 8.7em;
+  border-radius: 50%;
+  box-shadow: 0 0 7px 2px #B00021;
+  animation: wrinkle1 2s 1s infinite alternate;
+}
+.faceFreckle8{
+  background-color: #B00021;
+  opacity: .5;
+  height: .3em;
+  width: .3em;
+  position: absolute;
+  top: 20em;
+  left: 8.6em;
+  border-radius: 50%;
+  box-shadow: 0 0 13px 2px #B00021;
+  animation: wrinkle2 2s 1s infinite alternate;
+
+}
+.faceFreckle9{
+  background-color: #B00021;
+  opacity: .3;
+  height: .3em;
+  width: .3em;
+  position: absolute;
+  top: 21.3em;
+  left: 8em;
+  border-radius: 50%;
+  box-shadow: 0 0 13px 1px #B00021;
+  animation: wrinkle2 2s 1s infinite alternate;
+}
+.faceFreckle10{
+  background-color: #B00021;
+  opacity: .4;
+  height: .25em;
+  width: .25em;
+  position: absolute;
+  top: 21.8em;
+  left: 9em;
+  border-radius: 50%;
+  box-shadow: 0 0 13px 1px #B00021;
+  animation: wrinkle 2s 1s infinite alternate;
+}
+.faceFreckle11{
+  background-color: #B00021;
+  opacity: .4;
+  height: .25em;
+  width: .25em;
+  position: absolute;
+  top: 21.3em;
+  left: 9em;
+  border-radius: 50%;
+  box-shadow: 0 0 13px 1px #B00021;
+  animation: wrinkle1 2s 1s infinite alternate;
+}
+
+.trapezoid {
+  position: absolute;
+  top: 27.2em;
+	border-bottom: 30px solid red;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	height: 0;
+	width: 20px;
+}
