@@ -231,6 +231,7 @@ html{
   /*box-shadow: 0px 30px 10px 10px black;*/
 }
 .mouth{
+  z-index: 1;
   margin: 4em auto;
   height: 5em;
   width: 10em;
@@ -241,6 +242,7 @@ html{
   align-items: center;
 }
 .inside1 {
+  z-index: 1;
   height: 55%;
   width: 25%;
   background-color: black;
@@ -248,6 +250,7 @@ html{
   border-top-right-radius: 40%;
 }
 .inside {
+  z-index: 1;
   height: 55%;
   width: 25%;
   background-color: black;
@@ -814,7 +817,6 @@ background: radial-gradient(circle at 10px 1px, #F10038, #8B0325);
   box-shadow: 0 0 13px 1px #B00021;
   animation: wrinkle1 2s 1s infinite alternate;
 }
-
 .trapezoid {
   position: absolute;
   top: 27.2em;
@@ -823,4 +825,57 @@ background: radial-gradient(circle at 10px 1px, #F10038, #8B0325);
 	border-right: 50px solid transparent;
 	height: 0;
 	width: 20px;
+}
+.tongueLine{
+  height: 1.8em;
+  width: .13em;
+  background-color: #be0026;
+  position: absolute;
+  top: 27.2em;
+}
+
+.innerMouthWrinkleLeft{
+  z-index: -1;
+  position: absolute;
+  top: 21.3em;
+  left: 5.5em;
+  padding-bottom: 10.6em;
+  transform: rotate(-90deg);
+  width:95px; height:10px;
+  border-color:#EE0038 transparent transparent transparent;
+  border-radius: 44%;
+  border-top: 2px solid #ee0038;
+}
+.innerMouthWrinkleLeft1{
+  position: absolute;
+  top: 20.8em;
+  left: 3.3em;
+  padding-bottom: 10.6em;
+  transform: rotate(-90deg);
+  width:85px; height:10px;
+  border-color:#BA0021 transparent transparent transparent;
+  border-radius: 18%;
+  border-top: 2px solid rgba(164, 43, 69, 0.41);;
+}
+.innerMouthWrinkleRight{
+  position: absolute;
+  top: 20.8em;
+  left: 3.2em;
+  padding-bottom: 10.6em;
+  transform: rotate(90deg);
+  width:85px; height:10px;
+  border-color:#BA0021 transparent transparent transparent;
+  border-radius: 24%;
+  border-top: 2px solid rgba(164, 43, 69, 0.41);;
+}
+.innerMouthWrinkleRight1{
+  position: absolute;
+  top: 20.8em;
+  left: 3.4em;
+  padding-bottom: 10.6em;
+  transform: rotate(90deg);
+  width:85px; height:10px;
+  border-color:#BA0021 transparent transparent transparent;
+  border-radius: 18%;
+  border-top: 2px solid rgba(164, 43, 69, 0.41);;
 }

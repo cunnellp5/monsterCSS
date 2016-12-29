@@ -96,11 +96,34 @@
   transform: rotate(-90deg);
   animation: flyer2 3s infinite alternate;
 }
+.rightHornsGuy{
+  position: absolute;
+  z-index: -2;
+  top: 5em;
+  left: 13.7em;
+  transform: rotate(-90deg);
+  animation: flyer2 3s infinite alternate;
+}
+.rightArmsGuy{
+  position: absolute;
+  z-index: -3;
+  top: 15em;
+  left: 10.6em;
+  transform: rotate(90deg);
+  animation: flyer3 3s infinite alternate;
+}
+
+@keyframes flyer3 {
+  40%{
+    top: 16.4em;
+  }
+}
 @keyframes flyer {
   40%{
     top: 15em;
   }
 }
+
 @keyframes flyer1 {
   40%{
     top: 17.1em;
