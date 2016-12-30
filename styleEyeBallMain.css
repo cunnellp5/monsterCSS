@@ -833,9 +833,9 @@ background: radial-gradient(circle at 10px 1px, #F10038, #8B0325);
   position: absolute;
   top: 27.2em;
 }
-
+/*
 .innerMouthWrinkleLeft{
-  z-index: -1;
+  z-index: 0;
   position: absolute;
   top: 21.3em;
   left: 5.5em;
@@ -878,4 +878,4 @@ background: radial-gradient(circle at 10px 1px, #F10038, #8B0325);
   border-color:#BA0021 transparent transparent transparent;
   border-radius: 18%;
   border-top: 2px solid rgba(164, 43, 69, 0.41);;
-}
+}*/
