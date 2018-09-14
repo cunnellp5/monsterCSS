@@ -1,6 +1,12 @@
-I will attempt to create the monster in the image using just CSS and post it to
-codepen whence i'm ready...
+# Drooling Sumo Monster (pure CSS)
+> An xmas break project where i replicated a friends digital drawing with just CSS. I then animated it. Not efficient and not best practices in any way. But it looks cool? Kind of
 
-- This is just a means of practice to see if I could create something interesting
-- I used SVG html drawings for the first time/ keyframes/ and random techniques with box
-shadow where i divide the numbers. Not quite sure what happens there but i got the desired effect.
+> I learned how to draw SVGs / animate with keyframes / and took a deep dive with box
+shadow.
+
+## Tech:
+- HTML 
+- CSS
+
+### Deployed: 
+https://codepen.io/philipcunnell/pen/EZYaXp
